@@ -10,3 +10,6 @@ After creating an account, user will see the default screen for the app and tab 
 User can scroll up and down on the settings page and log out from there. 
 After logout, user can choose to sign in again and see the default screen for the app.
 
+![Video Walkthrough](dropbox.gif)
+
+The gif file is created with LICECap.
