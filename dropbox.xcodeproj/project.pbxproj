@@ -13,6 +13,8 @@
 		6AC5EBF41BCC6E0C003B7C81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC5EBF31BCC6E0C003B7C81 /* Images.xcassets */; };
 		6AC5EBF71BCC6E0C003B7C81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AC5EBF51BCC6E0C003B7C81 /* LaunchScreen.xib */; };
 		6AC5EC031BCC6E0C003B7C81 /* dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5EC021BCC6E0C003B7C81 /* dropboxTests.swift */; };
+		6AC5EC0F1BCC8051003B7C81 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5EC0E1BCC8051003B7C81 /* TermsViewController.swift */; };
+		6AC5EC121BCC8A89003B7C81 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC5EC111BCC8A89003B7C81 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6AC5EBFC1BCC6E0C003B7C81 /* dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC5EC011BCC6E0C003B7C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AC5EC021BCC6E0C003B7C81 /* dropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropboxTests.swift; sourceTree = "<group>"; };
+		6AC5EC0E1BCC8051003B7C81 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		6AC5EC111BCC8A89003B7C81 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		6AC5EBE91BCC6E0C003B7C81 /* dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				6AC5EC101BCC8059003B7C81 /* View Controllers */,
 				6AC5EBEC1BCC6E0C003B7C81 /* AppDelegate.swift */,
 				6AC5EBEE1BCC6E0C003B7C81 /* ViewController.swift */,
 				6AC5EBF01BCC6E0C003B7C81 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				6AC5EC011BCC6E0C003B7C81 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AC5EC101BCC8059003B7C81 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5EC111BCC8A89003B7C81 /* SettingsViewController.swift */,
+				6AC5EC0E1BCC8051003B7C81 /* TermsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC5EBEF1BCC6E0C003B7C81 /* ViewController.swift in Sources */,
+				6AC5EC0F1BCC8051003B7C81 /* TermsViewController.swift in Sources */,
 				6AC5EBED1BCC6E0C003B7C81 /* AppDelegate.swift in Sources */,
+				6AC5EC121BCC8A89003B7C81 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				6AC5EC081BCC6E0C003B7C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AC5EC091BCC6E0C003B7C81 /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				6AC5EC0B1BCC6E0C003B7C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
